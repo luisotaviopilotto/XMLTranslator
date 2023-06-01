@@ -44,7 +44,6 @@ Para verificar a lista de idiomas suportados pelo serviço Deep Translator da Go
 python main.py -a
 ```
 
-```
 +-----------------------+----------+
 | Idioma                | Código   |
 +=======================+==========+
@@ -314,7 +313,6 @@ python main.py -a
 +-----------------------+----------+
 | zulu                  | zu       |
 +-----------------------+----------+
-```
 
 ## Uso
 ```
