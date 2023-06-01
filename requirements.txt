@@ -1,5 +1,4 @@
-deep-translator==1.5.5
-tqdm==4.61.2
-requests==2.26.0
-argparse==1.4.0
-tabulate==0.8.9
+deep_translator
+tqdm
+requests
+tabulate
