@@ -15,6 +15,10 @@ cd xml-translator
 3. Instale as dependências usando o gerenciador de pacotes `pip`:
 pip install -r requirements.txt
 
+4. Crie um ambiente virtual Linux/Mac
+pip -m venv .
+source bin/active
+
 ## Uso
 python XMLTranslator.py -u <url> -l <idioma_destino> -o <idioma_origem>
 python XMLTranslator.py -f <arquivo> -l <idioma_destino> -o <idioma_origem>
