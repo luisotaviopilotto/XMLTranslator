@@ -30,7 +30,7 @@ Scripts\activate
 
 ## Lista de Idiomas Suportados
 Para verificar a lista de idiomas suportados pelo serviço Deep Translator da Google, execute o seguinte comando:
-python XMLTranslator.py -a
+python main.py -a
 ```
 +-----------------------+----------+
 | Idioma                | Código   |
@@ -304,8 +304,8 @@ python XMLTranslator.py -a
 ```
 
 ## Uso
-python XMLTranslator.py -u <url> -l <idioma_destino> -o <idioma_origem>
-python XMLTranslator.py -f <arquivo> -l <idioma_destino> -o <idioma_origem>
+python main.py -u <url> -l <idioma_destino> -o <idioma_origem>
+python main.py -f <arquivo> -l <idioma_destino> -o <idioma_origem>
 
 Opções:
 - `-u, --url`: Especifica a URL do arquivo XML de entrada
@@ -316,10 +316,10 @@ Opções:
 
 ## Exemplos
 Traduzir um arquivo XML a partir de uma URL:
-python XMLTranslator.py -u https://exemplo.com/arquivo.xml -l pt -o en
+python main.py -u https://exemplo.com/arquivo.xml -l pt -o en
 
 Traduzir um arquivo XML a partir de um arquivo local:
-python XMLTranslator.py -f caminho/do/arquivo.xml -l pt -o en
+python main.py -f caminho/do/arquivo.xml -l pt -o en
 
 ## Contribuição
 Contribuições são bem-vindas! Se você encontrar algum problema, tiver alguma sugestão ou quiser adicionar um novo recurso, fique à vontade para abrir uma issue ou enviar um pull request.
