@@ -1,4 +1,4 @@
-## ATENÇÃO
+## Obs.
 `É possível utilzar apenas um arquivo, sem a necessidade da criação do ambiente virtual.`
 `Basta usar o arquivo XMLTranslator.py após seguir os procedimentos de instalação 1, 2 e 3.`
 
@@ -11,15 +11,19 @@ O XML Translator é um programa Python que permite traduzir o conteúdo de arqui
 
 ## Instalação
 1. Clone este repositório em seu ambiente local:
-git clone https://github.com/seu-usuario/XMLTranslator.git
-
-git clone https://github.com/seu-usuario/XMLTranslator.giot
+```
+git clone https://github.com/luisotaviopilotto/XMLTranslator.git
+```
 
 2. Navegue até o diretório do projeto:
+```
 cd XMLTranslator
+```
 
 3. Instale as dependências usando o gerenciador de pacotes `pip`:
+```
 pip install -r requirements.txt
+```
 
 4. Crie um ambiente virtual
 ## Linux/Mac
@@ -36,7 +40,10 @@ Scripts\activate
 
 ## Lista de Idiomas Suportados
 Para verificar a lista de idiomas suportados pelo serviço Deep Translator da Google, execute o seguinte comando:
+```
 python main.py -a
+```
+
 ```
 +-----------------------+----------+
 | Idioma                | Código   |
@@ -310,8 +317,12 @@ python main.py -a
 ```
 
 ## Uso
+```
 python main.py -u <url> -l <idioma_destino> -o <idioma_origem>
+```
+```
 python main.py -f <arquivo> -l <idioma_destino> -o <idioma_origem>
+```
 
 Opções:
 - `-u, --url`: Especifica a URL do arquivo XML de entrada
@@ -322,10 +333,14 @@ Opções:
 
 ## Exemplos
 Traduzir um arquivo XML a partir de uma URL:
+```
 python main.py -u https://exemplo.com/arquivo.xml -l pt -o en
+```
 
 Traduzir um arquivo XML a partir de um arquivo local:
+```
 python main.py -f caminho/do/arquivo.xml -l pt -o en
+```
 
 ## Contribuição
 Contribuições são bem-vindas! Se você encontrar algum problema, tiver alguma sugestão ou quiser adicionar um novo recurso, fique à vontade para abrir uma issue ou enviar um pull request.
