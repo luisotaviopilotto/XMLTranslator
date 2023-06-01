@@ -43,51 +43,52 @@ Para verificar a lista de idiomas suportados pelo serviço Deep Translator da Go
 ```
 python main.py -a
 ```
-| Idioma                | Código   | | Idioma                | Código   | | Idioma                | Código   |
-|-----------------------|----------| |-----------------------|----------| |-----------------------|----------|
-| afrikaans             | af       | | albanian              | sq       | | amharic               | am       |
-| arabic                | ar       | | armenian              | hy       | | assamese              | as       |
-| aymara                | ay       | | azerbaijani           | az       | | bambara               | bm       |
-| basque                | eu       | | belarusian            | be       | | bengali               | bn       |
-| bhojpuri              | bho      | | bosnian               | bs       | | bulgarian             | bg       |
-| catalan               | ca       | | cebuano               | ceb      | | chichewa              | ny       |
-| chinese (simplified)  | zh-CN    | | chinese (traditional) | zh-TW    | | corsican              | co       |
-| croatian              | hr       | | czech                 | cs       | | danish                | da       |
-| dhivehi               | dv       | | dogri                 | doi      | | dutch                 | nl       |
-| english               | en       | | esperanto             | eo       | | estonian              | et       |
-| ewe                   | ee       | | filipino              | tl       | | finnish               | fi       |
-| french                | fr       | | frisian               | fy       | | galician              | gl       |
-| georgian              | ka       | | german                | de       | | greek                 | el       |
-| guarani               | gn       | | gujarati              | gu       | | haitian creole        | ht       |
-| hausa                 | ha       | | hawaiian              | haw      | | hebrew                | iw       |
-| hindi                 | hi       | | hmong                 | hmn      | | hungarian             | hu       |
-| icelandic             | is       | | igbo                  | ig       | | ilocano               | ilo      |
-| indonesian            | id       | | irish                 | ga       | | italian               | it       |
-| japanese              | ja       | | javanese              | jw       | | kannada               | kn       |
-| kazakh                | kk       | | khmer                 | km       | | kinyarwanda           | rw       |
-| konkani               | gom      | | korean                | ko       | | krio                  | kri      |
-| kurdish (kurmanji)    | ku       | | kurdish (sorani)      | ckb      | | kyrgyz                | ky       |
-| lao                   | lo       | | latin                 | la       | | latvian               | lv       |
-| lingala               | ln       | | lithuanian            | lt       | | luganda               | lg       |
-| luxembourgish         | lb       | | macedonian            | mk       | | maithili              | mai      |
-| malagasy              | mg       | | malay                 | ms       | | malayalam             | ml       |
-| maltese               | mt       | | manipuri              | mni      | | maori                 | mi       |
-| marathi               | mr       | | mongolian             | mn       | | nepali                | ne       |
-| norwegian             | no       | | occitan               | oc       | | oriya                 | or       |
-| pashto                | ps       | | persian               | fa       | | polish                | pl       |
-| portuguese            | pt       | | punjabi               | pa       | | quechua               | qu       |
-| romanian              | ro       | | russian               | ru       | | samoan                | sm       |
-| sanskrit              | sa       | | scots gaelic          | gd       | | serbian               | sr       |
-| sesotho               | st       | | shona                 | sn       | | sindhi                | sd       |
-| sinhala               | si       | | slovak                | sk       | | slovenian             | sl       |
-| somali                | so       | | spanish               | es       | | sundanese             | su       |
-| swahili               | sw       | | swedish               | sv       | | tajik                 | tg       |
-| tamil                 | ta       | | telugu                | te       | | thai                  | th       |
-| tigrinya              | ti       | | tongan                | to       | | turkish               | tr       |
-| turkmen               | tk       | | ukrainian             | uk       | | urdu                  | ur       |
-| uzbek                 | uz       | | vietnamese            | vi       | | welsh                 | cy       |
-| xhosa                 | xh       | | yiddish               | yi       | | yoruba                | yo       |
+| Idioma                | Código   | Idioma                | Código   | Idioma                | Código   |
+|-----------------------|----------|-----------------------|----------|-----------------------|----------|
+| afrikaans             | af       | albanian              | sq       | amharic               | am       |
+| arabic                | ar       | armenian              | hy       | assamese              | as       |
+| aymara                | ay       | azerbaijani           | az       | bambara               | bm       |
+| basque                | eu       | belarusian            | be       | bengali               | bn       |
+| bhojpuri              | bho      | bosnian               | bs       | bulgarian             | bg       |
+| catalan               | ca       | cebuano               | ceb      | chichewa              | ny       |
+| chinese (simplified)  | zh-CN    | chinese (traditional) | zh-TW    | corsican              | co       |
+| croatian              | hr       | czech                 | cs       | danish                | da       |
+| dhivehi               | dv       | dogri                 | doi      | dutch                 | nl       |
+| english               | en       | esperanto             | eo       | estonian              | et       |
+| ewe                   | ee       | filipino              | tl       | finnish               | fi       |
+| french                | fr       | frisian               | fy       | galician              | gl       |
+| georgian              | ka       | german                | de       | greek                 | el       |
+| guarani               | gn       | gujarati              | gu       | haitian creole        | ht       |
+| hausa                 | ha       | hawaiian              | haw      | hebrew                | iw       |
+| hindi                 | hi       | hmong                 | hmn      | hungarian             | hu       |
+| icelandic             | is       | igbo                  | ig       | ilocano               | ilo      |
+| indonesian            | id       | irish                 | ga       | italian               | it       |
+| japanese              | ja       | javanese              | jw       | kannada               | kn       |
+| kazakh                | kk       | khmer                 | km       | kinyarwanda           | rw       |
+| konkani               | gom      | korean                | ko       | krio                  | kri      |
+| kurdish (kurmanji)    | ku       | kurdish (sorani)      | ckb      | kyrgyz                | ky       |
+| lao                   | lo       | latin                 | la       | latvian               | lv       |
+| lingala               | ln       | lithuanian            | lt       | luganda               | lg       |
+| luxembourgish         | lb       | macedonian            | mk       | maithili              | mai      |
+| malagasy              | mg       | malay                 | ms       | malayalam             | ml       |
+| maltese               | mt       | manipuri              | mni      | maori                 | mi       |
+| marathi               | mr       | mongolian             | mn       | nepali                | ne       |
+| norwegian             | no       | occitan               | oc       | oriya                 | or       |
+| pashto                | ps       | persian               | fa       | polish                | pl       |
+| portuguese            | pt       | punjabi               | pa       | quechua               | qu       |
+| romanian              | ro       | russian               | ru       | samoan                | sm       |
+| sanskrit              | sa       | scots gaelic          | gd       | serbian               | sr       |
+| sesotho               | st       | shona                 | sn       | sindhi                | sd       |
+| sinhala               | si       | slovak                | sk       | slovenian             | sl       |
+| somali                | so       | spanish               | es       | sundanese             | su       |
+| swahili               | sw       | swedish               | sv       | tajik                 | tg       |
+| tamil                 | ta       | telugu                | te       | thai                  | th       |
+| tigrinya              | ti       | tongan                | to       | turkish               | tr       |
+| turkmen               | tk       | ukrainian             | uk       | urdu                  | ur       |
+| uzbek                 | uz       | vietnamese            | vi       | welsh                 | cy       |
+| xhosa                 | xh       | yiddish               | yi       | yoruba                | yo       |
 | zulu                  | zu       |
+
 
 ## Uso
 ```
