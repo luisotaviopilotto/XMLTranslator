@@ -21,12 +21,16 @@ pip install -r requirements.txt
 python3 -m venv .
 source bin/active
 ```
+
 ## Windows
 ```
 python -m venv .
 Scripts\activate
 ```
-## Idiomas Suportados
+
+## Lista de Idiomas Suportados
+Para verificar a lista de idiomas suportados pelo serviço Deep Translator da Google, execute o seguinte comando:
+python XMLTranslator.py -a
 ```
 +-----------------------+----------+
 | Idioma                | Código   |
@@ -316,10 +320,6 @@ python XMLTranslator.py -u https://exemplo.com/arquivo.xml -l pt -o en
 
 Traduzir um arquivo XML a partir de um arquivo local:
 python XMLTranslator.py -f caminho/do/arquivo.xml -l pt -o en
-
-## Lista de Idiomas Suportados
-Para verificar a lista de idiomas suportados pelo serviço Deep Translator da Google, execute o seguinte comando:
-python XMLTranslator.py -a
 
 ## Contribuição
 Contribuições são bem-vindas! Se você encontrar algum problema, tiver alguma sugestão ou quiser adicionar um novo recurso, fique à vontade para abrir uma issue ou enviar um pull request.
