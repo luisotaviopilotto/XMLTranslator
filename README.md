@@ -1,7 +1,3 @@
-## Obs.
-`É possível utilzar apenas um arquivo, sem a necessidade da criação do ambiente virtual.`
-`Basta usar o arquivo XMLTranslator.py após seguir os procedimentos de instalação.`
-
 # XML Translator
 O XML Translator é um programa Python que permite traduzir o conteúdo de arquivos XML usando o serviço Deep Translator da Google. O programa suporta a tradução de arquivos XML a partir de uma URL ou de um arquivo local, fornecendo o idioma de origem e o idioma de destino para a tradução.
 
