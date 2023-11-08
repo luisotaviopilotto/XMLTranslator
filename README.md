@@ -9,32 +9,32 @@ O XML Translator é um programa Python que permite traduzir o conteúdo de arqui
 - Python 3.x
 - Bibliotecas Python: `deep_translator`, `xml.etree.ElementTree`, `re`, `tqdm`, `xml.dom.minidom`, `requests`, `argparse`, `tabulate`
 
-## Instalação
-1. Clone este repositório em seu ambiente local:
+# Instalação
+## Clone este repositório em seu ambiente local
 ```
 git clone https://github.com/luisotaviopilotto/XMLTranslator.git
 ```
 
-2. Navegue até o diretório do projeto:
+## Navegue até o diretório do projeto:
 ```
 cd XMLTranslator
 ```
 
-3. Crie um ambiente virtual:
+## Crie um ambiente virtual:
 ```
 python -m venv .venv
 ```
-4. Ative o ambiente:
-## Windows
+## Ative o ambiente:
+### Windows
 ```
 .venv\Scripts\activate
 ```
-## Linux/MacOS
+### Linux/MacOS
 ```
  source .venv/bin/activate
 ```
 
-5. Instale as dependências usando o gerenciador de pacotes `pip`:
+## Instale as dependências usando o gerenciador de pacotes `pip`:
 ```
 pip install -r requirements.txt
 ```
