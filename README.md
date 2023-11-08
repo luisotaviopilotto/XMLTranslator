@@ -34,6 +34,14 @@ python -m venv .venv
  source .venv/bin/activate
 ```
 
+Isso criará um ambiente virtual na pasta .venv e ativará-o.
+
+## Atualize o pip para a versão mais recente:
+
+```
+python -m pip install --upgrade pip
+```
+
 ## Instale as dependências usando o gerenciador de pacotes `pip`:
 ```
 pip install -r requirements.txt
