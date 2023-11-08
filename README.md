@@ -20,22 +20,23 @@ git clone https://github.com/luisotaviopilotto/XMLTranslator.git
 cd XMLTranslator
 ```
 
-3. Instale as dependências usando o gerenciador de pacotes `pip`:
+3. Crie um ambiente virtual:
 ```
-pip install -r requirements.txt
+python -m venv .venv
 ```
-
-4. Crie um ambiente virtual
-## Linux/Mac
-```
-python3 -m venv .
-source bin/active
-```
-
+4. Ative o ambiente:
 ## Windows
 ```
-python -m venv .
-Scripts\activate
+.venv\Scripts\activate
+```
+## Linux/MacOS
+```
+ source .venv/bin/activate
+```
+
+5. Instale as dependências usando o gerenciador de pacotes `pip`:
+```
+pip install -r requirements.txt
 ```
 
 ## Lista de Idiomas Suportados
