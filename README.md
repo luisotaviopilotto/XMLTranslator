@@ -1,6 +1,6 @@
 ## Obs.
 `É possível utilzar apenas um arquivo, sem a necessidade da criação do ambiente virtual.`
-`Basta usar o arquivo XMLTranslator.py após seguir os procedimentos de instalação 1, 2 e 3.`
+`Basta usar o arquivo XMLTranslator.py após seguir os procedimentos de instalação.`
 
 # XML Translator
 O XML Translator é um programa Python que permite traduzir o conteúdo de arquivos XML usando o serviço Deep Translator da Google. O programa suporta a tradução de arquivos XML a partir de uma URL ou de um arquivo local, fornecendo o idioma de origem e o idioma de destino para a tradução.
@@ -9,33 +9,42 @@ O XML Translator é um programa Python que permite traduzir o conteúdo de arqui
 - Python 3.x
 - Bibliotecas Python: `deep_translator`, `xml.etree.ElementTree`, `re`, `tqdm`, `xml.dom.minidom`, `requests`, `argparse`, `tabulate`
 
-## Instalação
-1. Clone este repositório em seu ambiente local:
+# Instalação
+## Clone este repositório em seu ambiente local
 ```
 git clone https://github.com/luisotaviopilotto/XMLTranslator.git
 ```
 
-2. Navegue até o diretório do projeto:
+## Navegue até o diretório do projeto:
 ```
 cd XMLTranslator
 ```
 
-3. Instale as dependências usando o gerenciador de pacotes `pip`:
+## Crie um ambiente virtual:
+```
+python -m venv .venv
+```
+## Ative o ambiente:
+### Windows
+```
+.venv\Scripts\activate
+```
+### Linux/MacOS
+```
+ source .venv/bin/activate
+```
+
+Isso criará um ambiente virtual na pasta .venv e ativará-o.
+
+## Atualize o pip para a versão mais recente:
+
+```
+python -m pip install --upgrade pip
+```
+
+## Instale as dependências usando o gerenciador de pacotes `pip`:
 ```
 pip install -r requirements.txt
-```
-
-4. Crie um ambiente virtual
-## Linux/Mac
-```
-python3 -m venv .
-source bin/active
-```
-
-## Windows
-```
-python -m venv .
-Scripts\activate
 ```
 
 ## Lista de Idiomas Suportados
